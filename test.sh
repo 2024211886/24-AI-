@@ -1,23 +1,24 @@
 #!/bin/bash
 
 
-#±àÒëc++´úÂë
+#ç¼–è¯‘c++ä»£ç 
 
 g++ FileName.cpp -o main
 
-#¼ì²é±àÒëÊÇ·ñ³É¹¦
+#æ£€æŸ¥ç¼–è¯‘æ˜¯å¦æˆåŠŸ
 
 if[$? -ne 0];  then
 
-echo "±àÒëÊ§°Ü£¡Çë¼ì²é´úÂëÊÇ·ñÓÐ´íÎó"
+echo "ç¼–è¯‘å¤±è´¥ï¼è¯·æ£€æŸ¥ä»£ç æ˜¯å¦æœ‰é”™è¯¯"
     exit 1
 
     fi
 
 
-    # Ö±½ÓÔËÐÐ³ÌÐò£¨ºÍÄãÊÖ¶¯Êä./ FileNameÒ»Ñù£©
+    # ç›´æŽ¥è¿è¡Œç¨‹åº
 
     ./ FileName
 
-    # ÌáÊ¾Íê³É
-echo "³ÌÐòÔËÐÐ½áÊø"
+    # æç¤ºå®Œæˆ
+
+echo "ç¨‹åºè¿è¡Œç»“æŸ"
