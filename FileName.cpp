@@ -1,4 +1,4 @@
-/* ²éÕÒÊı×éÖĞ×î´óµÄÔªËØ
+/* æŸ¥æ‰¾æ•°ç»„ä¸­æœ€å¤§çš„å…ƒç´ 
 #include<iostream>
 using namespace std;
 
@@ -10,13 +10,13 @@ void main() {
 			max = arr[i];
 		}
 	}
-	cout << "×î´óÖµÎª" << max << endl;
+	cout << "æœ€å¤§å€¼ä¸º" << max << endl;
 }*/
 
 
 
 
-/*´òÓ¡ÈıÃûÑ§ÉúµÄ×Ü³É¼¨
+/*æ‰“å°ä¸‰åå­¦ç”Ÿçš„æ€»æˆç»©
 #include<iostream>
 #include<string>
 using namespace std;
@@ -30,7 +30,7 @@ void main()
 		{60,70,80}
 	};
 
-	string names[3] = { "ÕÅÈı","ÀîËÄ","ÍõÎå" };
+	string names[3] = { "å¼ ä¸‰","æå››","ç‹äº”" };
 
 	for (int i = 0; i < 3; i++) 
 	{
@@ -39,7 +39,7 @@ void main()
 		{
 			sum += scores[i][j];
 		}
-		cout << names[i] << "×Ü³É¼¨Îª" << sum << endl;
+		cout << names[i] << "æ€»æˆç»©ä¸º" << sum << endl;
 	}
 }*/
 
@@ -47,7 +47,7 @@ void main()
 
 
 
-/*º¯ÊıµÄ·ÖÎÄ¼ş±àĞ´(ÒÔswapº¯ÊıÎªÀı)
+/*å‡½æ•°çš„åˆ†æ–‡ä»¶ç¼–å†™(ä»¥swapå‡½æ•°ä¸ºä¾‹)
 #include"swap.h"
 
 
@@ -96,13 +96,13 @@ void main() {
 
 
 
-/*//Ã°ÅİÅÅĞò
+/*//å†’æ³¡æ’åº
 #include<iostream>
 using namespace std;
 
 
 
-//¶¨ÒåÃ°ÅİÅÅĞòº¯Êı
+//å®šä¹‰å†’æ³¡æ’åºå‡½æ•°
 void bubblesort(int* arr, int len)
 {
 	for (int i = 0; i < len - 1; i++)
@@ -130,7 +130,7 @@ void printarray(int* arr, int len)
 
 
 
-//½¨Á¢Êı×é
+//å»ºç«‹æ•°ç»„
 void main()
 {
 	int arr[10] = { 3,7,6,1,9,4,5,2,8,10 };
@@ -138,7 +138,7 @@ void main()
 	bubblesort(arr, len);
 	printarray(arr, len);
 }
-//Èç¹ûÏëÍ¬Ê±¶ÔÁ½¸öÊı×é½øĞĞÃ°ÅİÅÅĞò¸ÃÔõÃ´×ö*/
+//å¦‚æœæƒ³åŒæ—¶å¯¹ä¸¤ä¸ªæ•°ç»„è¿›è¡Œå†’æ³¡æ’åºè¯¥æ€ä¹ˆåš*/
 
 
 
@@ -178,6 +178,7 @@ int main(){
 	return 0;
 
 }*/
+
 
 
 
